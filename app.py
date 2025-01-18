@@ -7,7 +7,7 @@ from smolagents import CodeAgent, LiteLLMModel, tool, GradioUI  # type: ignore
 
 # Step 2: Load environment variables, including API keys, from a .env file 
 
-GROQ_API_KEY="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"
+
 # Step 3: Define the Language Model (LLM). Here, we use Google's Gemini model
 model = LiteLLMModel(model_id="groq/llama3-8b-8192",  api_key=GROQ_API_KEY)
 
